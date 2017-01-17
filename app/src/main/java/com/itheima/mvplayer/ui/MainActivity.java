@@ -9,7 +9,7 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }*/
-    //给父类onCreat方法返回布局地址
+    //给父类onCreat方法返回布局地址.抽取基类的初始化方式
     @Override
     public int getLayoutResId() {
         return R.layout.activity_main;
