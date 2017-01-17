@@ -1,9 +1,8 @@
 package com.itheima.mvplayer.ui;
 
 import com.itheima.mvplayer.R;
-
+//继承AppCompatActivity改为继承BaseActivity,
 public class MainActivity extends BaseActivity {
-    //继承AppCompatActivity改为继承BaseActivity,
     /*@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
