@@ -28,6 +28,7 @@ public abstract class BaseFragment extends Fragment{
         View root = inflater.inflate(getLayoutResId(),null);
         //fragement的绑定
         ButterKnife.bind(this,root);
+
         init();
         return root;//super.onCreateView(inflater, container, savedInstanceState);
     }

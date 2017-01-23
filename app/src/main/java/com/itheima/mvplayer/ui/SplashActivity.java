@@ -1,15 +1,18 @@
 package com.itheima.mvplayer.ui;
 
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-
 import com.itheima.mvplayer.R;
 
-public class SplashActivity extends AppCompatActivity {
+public class SplashActivity extends BaseActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+    public int getLayoutResId() {
+        return R.layout.activity_splash;
     }
+
+    @Override
+    protected void init() {
+
+    }
+
+
 }
